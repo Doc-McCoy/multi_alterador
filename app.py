@@ -7,7 +7,7 @@ class App:
 
     def __init__(self, root):
 
-        root.title("Multi alterador.")
+        root.title("Multi alterador")
         root.resizable(0,0)
 
         # Frame raíz
