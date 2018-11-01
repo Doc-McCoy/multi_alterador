@@ -34,7 +34,7 @@ class App:
 
         # Radios
         self.posicao = IntVar()
-        self.frameRadios = Frame(self.frameMain)
+        self.frameRadios = Frame(self.frameText)
         self.frameRadios.pack(fill='x')
         self.radioA = Radiobutton(self.frameRadios, text="Adicionar ao início", variable=self.posicao, value=1)
         self.radioA.pack(side=LEFT)
